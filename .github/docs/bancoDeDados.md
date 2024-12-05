@@ -162,7 +162,7 @@
 | ID_Eixo            | INT                                                 | Identificador único do eixo, chave estrangeira para a tabela JornadaEixo.            | FK -> JornadaEixo(ID_Eixo)   |
 | Item               | TEXT                                                | Descrição do item da jornada.                                                        | NOT NULL                     |
 | Descricao          | TEXT                                                | Descrição detalhada do item da jornada.                                              | NOT NULL                     |
-| Input              | BLOB                                                | Arquivo de entrada para o item da jornada.                                           | NULL                         |
+| Input              | TEXT                                                | Arquivo de entrada para o item da jornada.                                           | NULL                         |
 | Exemplos_Genericos | TEXT                                                | Exemplos genéricos relacionados ao item da jornada.                                  | NULL                         |
 | Ferramentas        | TEXT                                                | Ferramentas recomendadas para o item da jornada.                                     | NULL                         |
 | Material_Apoio     | TEXT                                                | Material de apoio para o item da jornada.                                            | NOT NULL                     |
